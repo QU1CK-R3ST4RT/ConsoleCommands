@@ -2,7 +2,7 @@
 
 ## **Required Product Attributes**
   - supplier
-    - last_import_date
+  - last_import_date
 ## **example**
 ```bash
 bin/magento clean:supplier "SupplierName" "disable" "2025-03-26" --dry-run
