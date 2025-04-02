@@ -1,0 +1,30 @@
+{
+  "name": "DIMA/custom-commands",
+  "description": "Dima Custom Magento 2 commands",
+  "authors": [
+    {
+      "name": "Dima Support",
+      "email": "helpdesk@dima.nl",
+      "role": "Owner",
+      "homepage": "https://github.com/Dima-Support"
+    },
+    {
+      "name": "Dion Kempenk",
+      "role": "Backend Developer PHP @ DIMA.",
+      "homepage": "https://github.com/QU1CK-R3ST4RT"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "Open Software License (OSL 3.0)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DIMA\\CustomCommands\\": ""
+    }
+  }
+}
