@@ -1,4 +1,4 @@
-# Product Cleanup
+# Product Cleanup for magento2
 
 ## **Required Product Attributes**
   - supplier
