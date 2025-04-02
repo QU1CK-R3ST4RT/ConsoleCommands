@@ -228,7 +228,7 @@ class CleanSupplierCommand extends Command
 
         // Build search criteria with filters
         $searchCriteria = $this->searchCriteriaBuilder
-            ->addFilter('Supplier', $supplierName, 'eq') // Filter by 'leverancier'
+            ->addFilter('supplier', $supplierName, 'eq') // Filter by 'leverancier'
             ->addFilter('last_import_date', $date, 'lt') // Filter by 'last_import_date_automation', older than today
             ->create();
 
