@@ -14,9 +14,9 @@ bin/magento clean:supplier "SupplierName" "delete" --dry-run
 
 - Supplier Name
 - method : disable, storeview, delete
-  - disable: disable found products based on laatste_importdatum
-  - storeview: remove found products from all storeviews based on laatste_importdatum
-  - delete: delete products from database based on laatste_importdatum
+  - disable: disable found products based on last_import_date
+  - storeview: remove found products from all storeviews based on last_import_date
+  - delete: delete products from database based on last_import_date
 - Date (Optional): format Y-m-d, default: older then today
 
 ## **Options:**
