@@ -3,7 +3,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="clean_supplier" xsi:type="object">DIMA\CustomCommands\Console\CleanSupplierCommand</item>
+                <item name="clean_supplier" xsi:type="object">Vendor\CustomCommands\Console\CleanSupplierCommand</item>
             </argument>
         </arguments>
     </type>
