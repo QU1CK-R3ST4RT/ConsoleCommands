@@ -1,11 +1,11 @@
-# DIMA Product Cleanup
+# Product Cleanup
 
 
 ## **example**
 ```bash
-bin/magento clean:supplier "IdIdentity" "disable" "2025-03-26" --dry-run
-bin/magento clean:supplier "IdIdentity" "storeview" --dry-run
-bin/magento clean:supplier "IdIdentity" "delete" --dry-run
+bin/magento clean:supplier "SupplierName" "disable" "2025-03-26" --dry-run
+bin/magento clean:supplier "SupplierName" "storeview" --dry-run
+bin/magento clean:supplier "SupplierName" "delete" --dry-run
 ```
 
 ## **Params:**
