@@ -1,6 +1,6 @@
 <?php
 
-namespace DIMA\CustomCommands\Console;
+namespace Vendor\CustomCommands\Console;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Framework\App\State;
@@ -228,8 +228,8 @@ class CleanSupplierCommand extends Command
 
         // Build search criteria with filters
         $searchCriteria = $this->searchCriteriaBuilder
-            ->addFilter('leverancier', $supplierName, 'eq') // Filter by 'leverancier'
-            ->addFilter('last_import_date_automation', $date, 'lt') // Filter by 'last_import_date_automation', older than today
+            ->addFilter('Supplier', $supplierName, 'eq') // Filter by 'leverancier'
+            ->addFilter('last_import_date', $date, 'lt') // Filter by 'last_import_date_automation', older than today
             ->create();
 
         // Fetch products based on the search criteria
